@@ -1,0 +1,29 @@
+tipo, todos aqui precisam de 2 conjuntos.
+
+.union - Junção de conjuntos da matematica, onde n repetem.
+
+.intersection = Junção de um conjunto, só que onde se repetem.
+
+.difference = o que não esta em um conjunto
+
+.symetric_difference = Retorna tudo que não está em cada um dos lados, tipo, só tem do lado A e outro só tem do lado B, retorna esses 2 malandro então.
+
+.issuperset = Ve se um conjunto existe dentro de outro
+
+.isdisjoint = Um conjunto não existe dentro de outro.
+
+.add() - adiciona um valoresx
+
+.clear() - limpa o sdet
+
+.copy - adivinha
+
+.discard(#) - descarta um valor
+
+.pop - tira o primeiro da fila
+
+.remove() - passa o valor a ser retirado
+
+.len
+
+x in setName para ser se existe no set.

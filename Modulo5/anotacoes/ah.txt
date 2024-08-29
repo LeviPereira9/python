@@ -1,0 +1,20 @@
+.count() conta quantos elementos tem na lista
+
+.extend([]) concatena outra list na list.
+
+.index() primeira ocorrência do argumento
+
+.pop() pilha, ultimo que entra, primeiro que sai.
+
+.pop(0) tirou o primeiro, que isso.
+
+.remove(#) passamo o argumento, se aparecer um igual a esse, removido. Sempre a primeira ocorrência.
+
+.reverse() hm... talvez... talvez ela reverta a ordem da lista.
+
+.sort() sort ne, mais coisa nas imagens.
+
+.len() tamanho da lista.
+
+
+.sorted na iamgem

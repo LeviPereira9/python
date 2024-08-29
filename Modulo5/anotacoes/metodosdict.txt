@@ -1,0 +1,29 @@
+.clear() - talvez...
+
+.copy() - ...
+
+.fromkeys() - cria chaves no dict, se passar {}.fromkeys(["Nome"]), vai criar a chave nome, mas se fizer: {}.fromkeys(["Nome"],"Levi"), vai criar e já atribuir um valor a ela.
+
+.get("nome") - Get o valor, podemos passar um valor default, caso ele não ache, tipo:
+.get("nome", {})
+
+.items() - retorna chave e valor.
+
+.keys() - retorna as keys? :O 
+
+.pop() - remove, tem que passar um argumento, a chave, tbm pode passar o valor default caso n tenha.
+
+.popitem() - pop no valor por sequência.
+
+.setdefault() - a gente passa um valor para ser adicionado, se nesse dict já tiver um valor, ele nao alterar, mas se não tiver é adicionado.
+
+.update() - permite atualizar o dicionario total saca
+
+.valeus() - Retorna o valor.
+
+in - basico, ne, saber se ta lá.
+
+.del() - deleta né, a gente passa só o objeto que vamos deletar, só passar a chave dele.
+
+del pessoa["Lucas"]["Curso"] - Del o curso 
+del pessoa["Fernando"] - Del o Fernando 

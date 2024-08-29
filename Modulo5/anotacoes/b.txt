@@ -1,0 +1,19 @@
+tuplas são imutaveis!!
+
+
+lista = []
+tupla = ()
+
+tupla = ([1,2,3,4]) - valido ainda.
+
+colocar vírgula no fina lda tupla
+
+tupla = (1,2,3,)
+
+principalmente para tuplas de elemento unico
+
+oMelhor = ("Brasil",)
+
+metodos dela é todos de list menos de atualizaçãod e valoresx
+
+count, index, count, len...
