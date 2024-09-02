@@ -2,6 +2,8 @@ from datetime import datetime
 
 """ Deposito, Saque e Extrato """
 
+contas = []
+usuarios = []
 historico = []
 maximo_saque = 500
 saldo = 2000
@@ -16,6 +18,43 @@ mensagem = """
 
 ==============================
 """
+
+def cadastrarUsuario():
+    global usuarios
+
+    print("""
+           CADASTRAR USUARIO
+    ==============================
+""")
+
+    #nome, data_nascimento, cpf, endereço: logradouro, num, bairro, cidade/estado
+    novo_usuario = {
+        "nome": input("Nome: "),
+        "data_nascimento": datetime.strftime(input("Data de nascimento: "),"%d/%m/%Y"),
+        "cpf": input("CPF: ").replace(".", "").replace("-", ""),
+        "endereco": {
+            "logradouro":input("Logradouro: "),
+            "num": input("Número: "),
+            "bairro": input("Bairro"),
+            "cidade/estado": input("Cidade/Estado")
+        }
+    }
+
+    usuarios.append(novo_usuario)
+
+
+def cadastrarConta():
+    global contas
+    #agencia, numero, usuario
+    nova_conta = {
+        "agencia": input("Agência: "),
+        "numero": input("Número: "),
+        "usuario": input("CPF: ").replace(".", "").replace("-","")
+    }
+
+    contas.append(nova_conta)
+    
+
 
 def registrarExtrato(acao):
     global extrato
@@ -79,6 +118,9 @@ while True:
     elif(opcao == "3"):
         print(f"Extrato: \n{extrato}")
         print(f"Saldo: R$:{saldo}")
+    elif(opcao == "4"):
+
+        continue
     else:
         print("Opção invalida")
       
